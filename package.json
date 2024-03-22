@@ -1,0 +1,52 @@
+{
+  "name": "idsint",
+  "version": "1.0.0",
+  "description": "**Modular**, **Interoperable**, and **gas optimized** library for **secure EVM smart contract development**.",
+  "main": "index.ts",
+  "files": [
+    "/contracts/**/*.sol",
+    "!/contracts/mocks/**/*",
+    "!/contracts/tests/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WinnifredKuhic/idsint.git"
+  },
+  "keywords": [
+    "Solidity",
+    "eum",
+    "defi",
+    "wallet",
+    "eth",
+    "aut",
+    "voluptatem",
+    "TypeScript",
+    "Foundry",
+    "NFT",
+    "gameFi",
+    "iusto",
+    "et"
+  ],
+  "author": "BuckSawayn",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/WinnifredKuhic/idsint.git",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@typechain/ethers-v5": "^10.1.0",
+    "@typechain/hardhat": "^6.1.3",
+    "chai": "^4.3.6",
+    "hardhat": "^2.12.1",
+    "hardhat-abi-exporter": "^2.10.0",
+    "hardhat-spdx-license-identifier": "^2.0.3",
+    "lerna": "^6.0.1",
+    "typechain": "^8.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
